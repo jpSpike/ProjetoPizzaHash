@@ -260,3 +260,105 @@ section {
 .menu .box-container .box:hover > *{
     color: #000
 }
+
+/* ========== PRODUCTS/PROMOÇÕES ========== */
+.products .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.products .box-container .box {
+    text-align: center;
+    padding: 2rem;
+    border: var(--border);
+    background: var(--bg-card);    
+}
+
+.products .box-container .box .icons a ion-icon {
+    height:3rem;
+    width:3rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.products .box-container .box .icons a ion-icon:hover {
+    color: var(--main-color);
+    transform: scale(1.2);
+} 
+
+.products .box-container .box .image {
+    padding: 2.5rem 0;
+}
+
+.products .box-container .box .image img {
+    height: 25rem;
+    margin-bottom: 1rem;
+}
+
+.products .box-container .box .content h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.products .box-container .box .content .stars {
+    padding: 1.5rem;
+}
+
+.products .box-container .box .content .stars i {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+
+.products .box-container .box .content .price {
+    color:#fff;
+    font-size: 2rem;
+}
+
+.products .box-container .box .content .price span {
+   font-weight: lighter;
+   font-size: 1.5rem;
+   text-decoration: lowercase;
+}
+
+/* ========== REVIEW/AVALIAÇÕES ========== */
+
+.reviews .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.reviews .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem; 
+}
+
+.reviews .box-container .box p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1.5rem 0; 
+}
+
+.user {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .box-container .box h3{
+    padding: 1rem 0;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.reviews .box-container .box .stars i {
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
