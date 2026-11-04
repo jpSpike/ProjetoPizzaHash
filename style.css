@@ -61,3 +61,72 @@ section {
     color: var(--main-color);
     text-transform: uppercase;
 }
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    letter-spacing: 0.2rem;
+}
+
+/* ====================== HEADER =========================*/
+.header {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+}
+
+.header .icons div {
+    margin-left: 1.5rem;
+}
+
+.header .icons div ion-icon {    
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.header .icons div ion-icon:hover {
+    color: var(--main-color);
+    transform: scale(1.2);
+}
+
+#menu-btn {
+    display: none;
+}
